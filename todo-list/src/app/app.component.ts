@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'todo-list';
+  trueOrFalse: boolean = false;
+  baseCounter: number = 0;
 }
